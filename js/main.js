@@ -31,7 +31,6 @@ function logIn() {
         if(ListOfEmails[i].opMail == enteredEmail && ListOfEmails[i].opPass == enteredPass){
             
             localStorage.setItem('nameofuser' , ListOfEmails[i].opName )
-            alert(`hello `+ ListOfEmails[i].opName);
             fakearr.push(ListOfEmails[i])
             window.location = 'home.html'
         }

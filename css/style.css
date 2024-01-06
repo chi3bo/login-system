@@ -314,8 +314,16 @@ body {
         padding-inline: 5px;
         font-size: 20px;
     }
-
     /* ---- end home page ------ */
+}
+
+
+
+
+@media screen and (max-width:360px){
+    .myIcons{
+        bottom: 8%;
+    }
 }
 
 
