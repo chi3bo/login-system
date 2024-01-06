@@ -320,9 +320,12 @@ body {
 
 
 
-@media screen and (max-width:360px){
+@media screen and (max-width:414px){
     .myIcons{
-        bottom: 8%;
+        bottom: 12%;
+    }
+    .innerHello h1 {
+        font-size: 68px;
     }
 }
 
